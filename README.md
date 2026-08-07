@@ -80,12 +80,7 @@ This analysis explores the following questions:
 
 ## Project Structure
 
-
-insurance-cost-analysis/
-│
-├── insurance_analysis.xlsx
-└── README.md
-
+insurance-cost-analysis/ │ ├── insurance_analysis.xlsx └── README.md
 
 ### Workbook Contents
 
