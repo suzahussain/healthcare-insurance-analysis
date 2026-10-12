@@ -12,6 +12,8 @@ The goal is to demonstrate practical Excel skills used in data analysis, includi
 ## Tools & Skills
 
 * Microsoft Excel
+* PostgreSQL
+* SQL Queries
 * Data Preparation
 * Calculated Fields
 * PivotTables
@@ -66,6 +68,32 @@ This analysis explores the following questions:
 4. Do medical charges vary by region?
 5. Is there a relationship between number of children and medical charges?
 
+**##SQL Analysis (PostgreSQL)**
+
+The dataset was also analyzed using PostgreSQL to explore medical cost patterns and compare charges across customer segments.
+
+The SQL analysis includes 10 queries examining:
+
+Average medical charges by smoking status and BMI category
+Total and average medical costs across regions
+Percentage of total medical charges attributable to smokers
+Records with the highest medical charges
+Smoking prevalence across regions
+Records with charges above their regional average
+Highest-cost records within each region using ranking functions
+Average charges by age group and smoking status
+High-cost customer segments based on age, BMI, and smoking status
+
+**##SQL Concepts Used**
+Aggregate functions: AVG(), SUM(), COUNT()
+Conditional logic: CASE WHEN
+Grouping and sorting: GROUP BY, ORDER BY
+Subqueries
+Window functions: RANK()
+Filtering grouped results: HAVING
+
+**#SQL Script: insurance_analysis.sql
+**
 ---
 
 ## Key Findings
@@ -80,9 +108,10 @@ This analysis explores the following questions:
 
 ## Project Structure
 
-*insurance-cost-analysis
-  || insurance_analysis.xlsx 
-  || README.md
+*insurance-cost-analysis/ — Project folder
+insurance_analysis.xlsx — Excel analysis and dashboard
+insurance_analysis.sql — PostgreSQL analysis queries
+README.md — Project documentation
 
 ### Workbook Contents
 
@@ -119,10 +148,9 @@ This analysis explores the following questions:
 
 Future updates to this project will include:
 
-* Recreating the analysis using SQL
-* Expanding the analysis with SQL queries and additional data exploration
-* Building an interactive dashboard using Power BI or Tableau
-* Performing statistical analysis to further examine relationships between variables
+* Expand the SQL analysis with additional questions and deeper data exploration
+* Build an interactive dashboard using Power BI or Tableau
+* Perform statistical analysis to further examine relationships between variables
 
 ---
 
