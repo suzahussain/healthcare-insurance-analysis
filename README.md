@@ -92,7 +92,7 @@ Subqueries
 Window functions: RANK()
 Filtering grouped results: HAVING
 
-## SQL Script: [insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/tree/main)
+## SQL Script: [View SQL Script]([insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/insurance_analysis.sql))
 
 ---
 
