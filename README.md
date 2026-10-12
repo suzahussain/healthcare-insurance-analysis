@@ -59,7 +59,7 @@ Source: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ---
 
-## Analysis Questions
+## Analysis Questions(Excel)
 
 This analysis explores the following questions:
 
@@ -68,6 +68,15 @@ This analysis explores the following questions:
 3. Does BMI group relate to differences in medical charges?
 4. Do medical charges vary by region?
 5. Is there a relationship between number of children and medical charges?
+
+## Key Findings
+
+* Smokers had substantially higher average medical charges compared with non-smokers, with average charges approximately **3.8 times higher**.
+* Average medical charges increased across age groups, with individuals aged **56+** having the highest average charges.
+* The **Obese** BMI group had the highest average medical charges among BMI categories.
+* Regional differences existed, but the variation was smaller compared with differences observed by smoking status, age, and BMI.
+* The number of children did not show a consistent pattern with average medical charges.
+
 
 ## SQL Analysis (PostgreSQL)
 
@@ -94,16 +103,6 @@ The SQL analysis includes 10 queries examining:
 * Filtering grouped results: HAVING
 
 ## SQL Script: ([insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/insurance_analysis.sql))
-
----
-
-## Key Findings
-
-* Smokers had substantially higher average medical charges compared with non-smokers, with average charges approximately **3.8 times higher**.
-* Average medical charges increased across age groups, with individuals aged **56+** having the highest average charges.
-* The **Obese** BMI group had the highest average medical charges among BMI categories.
-* Regional differences existed, but the variation was smaller compared with differences observed by smoking status, age, and BMI.
-* The number of children did not show a consistent pattern with average medical charges.
 
 ---
 
