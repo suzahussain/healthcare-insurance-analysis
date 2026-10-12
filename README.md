@@ -85,14 +85,14 @@ Average charges by age group and smoking status
 High-cost customer segments based on age, BMI, and smoking status
 
 ## SQL Concepts Used
-Aggregate functions: AVG(), SUM(), COUNT()
-Conditional logic: CASE WHEN
-Grouping and sorting: GROUP BY, ORDER BY
-Subqueries
-Window functions: RANK()
-Filtering grouped results: HAVING
+* Aggregate functions: AVG(), SUM(), COUNT()
+* Conditional logic: CASE WHEN
+* Grouping and sorting: GROUP BY, ORDER BY
+* Subqueries
+* Window functions: RANK()
+* Filtering grouped results: HAVING
 
-## SQL Script: [View SQL Script]([insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/insurance_analysis.sql))
+## SQL Script: ([insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/insurance_analysis.sql))
 
 ---
 
