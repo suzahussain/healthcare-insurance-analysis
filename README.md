@@ -1,5 +1,6 @@
 # healthcare-insurance-analysis
-Healthcare insurance cost analysis using Microsoft Excel.
+Healthcare insurance cost analysis using Microsoft Excel and PostgreSQL.
+
 
 ## Project Overview
 
@@ -74,15 +75,15 @@ The dataset was also analyzed using PostgreSQL to explore medical cost patterns 
 
 The SQL analysis includes 10 queries examining:
 
-Average medical charges by smoking status and BMI category
-Total and average medical costs across regions
-Percentage of total medical charges attributable to smokers
-Records with the highest medical charges
-Smoking prevalence across regions
-Records with charges above their regional average
-Highest-cost records within each region using ranking functions
-Average charges by age group and smoking status
-High-cost customer segments based on age, BMI, and smoking status
+* Average medical charges by smoking status and BMI category
+* Total and average medical costs across regions
+* Percentage of total medical charges attributable to smokers
+* Records with the highest medical charges
+* Smoking prevalence across regions
+* Records with charges above their regional average
+* Highest-cost records within each region using ranking functions
+* Average charges by age group and smoking status
+* High-cost customer segments based on age, BMI, and smoking status
 
 ## SQL Concepts Used
 * Aggregate functions: AVG(), SUM(), COUNT()
@@ -156,4 +157,5 @@ Future updates to this project will include:
 
 ## About This Project
 
-This project was created as part of my data analytics portfolio to demonstrate practical Excel skills used in exploratory data analysis. It showcases the ability to prepare data, create calculated fields, analyze patterns using PivotTables, build a dashboard with Excel formulas and visualizations, and communicate findings clearly.
+This project was created as part of my data analytics portfolio to demonstrate practical skills in data preparation, exploratory data analysis, SQL querying, and data visualization. It combines Excel-based analysis and dashboard creation with PostgreSQL queries to investigate patterns in healthcare insurance charges and communicate key findings.
+
