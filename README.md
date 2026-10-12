@@ -69,7 +69,7 @@ This analysis explores the following questions:
 4. Do medical charges vary by region?
 5. Is there a relationship between number of children and medical charges?
 
-## Key Findings
+## Excel Key Findings
 
 * Smokers had substantially higher average medical charges compared with non-smokers, with average charges approximately **3.8 times higher**.
 * Average medical charges increased across age groups, with individuals aged **56+** having the highest average charges.
