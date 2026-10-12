@@ -108,10 +108,10 @@ High-cost customer segments based on age, BMI, and smoking status
 
 ## Project Structure
 
-* insurance-cost-analysis/ — Project folder
-* insurance_analysis.xlsx — Excel analysis and dashboard
-* insurance_analysis.sql — PostgreSQL analysis queries
-* README.md — Project documentation
+* [Dashboard.png](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/Dashboard.png) — Screenshot of the Excel dashboard
+* [HealthCare_Insurance_Analysis.xlsx](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/HealthCare_Insurance_Analysis.xlsx) — Excel analysis and dashboard workbook
+* [README.md ](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/README.md)— Project documentation
+* [insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/blob/main/insurance_analysis.sql) — PostgreSQL analysis queries
 
 ### Workbook Contents
 
