@@ -2,7 +2,7 @@
 ===========================================================
 Healthcare Insurance Data Analysis Using PostgreSQL
 
-Author:Suzana Hu
+Author:Suzana Hussain
 Tools: PostgreSQL (pgAdmin)
 
 Dataset:
