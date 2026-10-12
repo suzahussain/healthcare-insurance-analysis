@@ -68,8 +68,8 @@ This analysis explores the following questions:
 4. Do medical charges vary by region?
 5. Is there a relationship between number of children and medical charges?
 
-**SQL Analysis (PostgreSQL)
-**
+## SQL Analysis (PostgreSQL)
+
 The dataset was also analyzed using PostgreSQL to explore medical cost patterns and compare charges across customer segments.
 
 The SQL analysis includes 10 queries examining:
@@ -84,7 +84,7 @@ Highest-cost records within each region using ranking functions
 Average charges by age group and smoking status
 High-cost customer segments based on age, BMI, and smoking status
 
-**SQL Concepts Used**
+## SQL Concepts Used
 Aggregate functions: AVG(), SUM(), COUNT()
 Conditional logic: CASE WHEN
 Grouping and sorting: GROUP BY, ORDER BY
@@ -92,7 +92,7 @@ Subqueries
 Window functions: RANK()
 Filtering grouped results: HAVING
 
-##SQL Script: [insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/tree/main)
+## SQL Script: [insurance_analysis.sql](https://github.com/suzahussain/healthcare-insurance-analysis/tree/main)
 
 ---
 
@@ -108,10 +108,10 @@ Filtering grouped results: HAVING
 
 ## Project Structure
 
-*insurance-cost-analysis/ — Project folder
-insurance_analysis.xlsx — Excel analysis and dashboard
-insurance_analysis.sql — PostgreSQL analysis queries
-README.md — Project documentation
+* insurance-cost-analysis/ — Project folder
+* insurance_analysis.xlsx — Excel analysis and dashboard
+* insurance_analysis.sql — PostgreSQL analysis queries
+* README.md — Project documentation
 
 ### Workbook Contents
 
